@@ -7,19 +7,16 @@ const testimonials = [
     name: 'أحمد محمد',
     text: 'تجربة ممتازة مع الدكتور. شرح تفصيلي للحالة وعناية فائقة قبل وبعد العملية.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80'
   },
   {
     name: 'سارة أحمد',
     text: 'الطاقم الطبي محترف جداً والعناية ممتازة. أنصح بشدة بالتعامل معهم.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80'
   },
   {
     name: 'خالد عبدالله',
     text: 'خدمة راقية ونتائج ممتازة. شكراً جزيلاً للدكتور وفريقه المتميز.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80'
   }
 ];
 
@@ -42,11 +39,7 @@ export default function HomeTestimonials() {
               className="bg-gray-50 p-6 rounded-xl"
             >
               <div className="flex items-center gap-4 mb-4">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+            
                 <div>
                   <h3 className="font-semibold">{testimonial.name}</h3>
                   <div className="flex gap-1">
